@@ -6,13 +6,13 @@
 #    By: msambo <msambo@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/29 11:40:05 by msambo            #+#    #+#              #
-#    Updated: 2019/10/31 13:58:30 by msambo           ###   ########.fr        #
+#    Updated: 2019/12/17 17:49:48 by msambo           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 docker pull debian
 
 apt-get update
-apt-get upgrade -y
-apt-get install gcc
-apt-get install git
+apt-get install -y gcc
+apt-get install -y git
+apt-get install -y vim 
